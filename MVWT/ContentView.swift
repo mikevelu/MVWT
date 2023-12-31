@@ -1,21 +1,21 @@
-//
-//  ContentView.swift
-//  MVWT
-//
-//  Created by Mike Velu on 31/12/2023.
-//
-
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        TabView {
+            Text("Train")
+                .tabItem {
+                    Label("Train", systemImage: "figure.strengthtraining.traditional")
+                }
+            WorkoutListView()
+                .tabItem {
+                    Label("Workouts", systemImage: "dumbbell")
+                }
+            Text("Stats")
+                .tabItem {
+                    Label("Stats", systemImage: "chart.xyaxis.line")
+                }
         }
-        .padding()
     }
 }
 

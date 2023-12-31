@@ -14,6 +14,8 @@
 		1C578DB62B42346A004D6BBB /* MVWTTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C578DB52B42346A004D6BBB /* MVWTTests.swift */; };
 		1C578DC02B42346A004D6BBB /* MVWTUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C578DBF2B42346A004D6BBB /* MVWTUITests.swift */; };
 		1C578DC22B42346A004D6BBB /* MVWTUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C578DC12B42346A004D6BBB /* MVWTUITestsLaunchTests.swift */; };
+		1C77AB9C2B42363000E1004B /* CreateWorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C77AB9B2B42363000E1004B /* CreateWorkoutView.swift */; };
+		1C77AB9E2B42365000E1004B /* WorkoutListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C77AB9D2B42365000E1004B /* WorkoutListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		1C578DBB2B42346A004D6BBB /* MVWTUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVWTUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C578DBF2B42346A004D6BBB /* MVWTUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVWTUITests.swift; sourceTree = "<group>"; };
 		1C578DC12B42346A004D6BBB /* MVWTUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVWTUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1C77AB9B2B42363000E1004B /* CreateWorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateWorkoutView.swift; sourceTree = "<group>"; };
+		1C77AB9D2B42365000E1004B /* WorkoutListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +98,8 @@
 		1C578DA32B423469004D6BBB /* MVWT */ = {
 			isa = PBXGroup;
 			children = (
+				1C77AB9A2B4235F100E1004B /* Create new workout */,
+				1C77AB992B4235E900E1004B /* View workouts */,
 				1C578DA42B423469004D6BBB /* MVWTApp.swift */,
 				1C578DA62B423469004D6BBB /* ContentView.swift */,
 				1C578DA82B42346A004D6BBB /* Assets.xcassets */,
@@ -125,6 +131,22 @@
 				1C578DC12B42346A004D6BBB /* MVWTUITestsLaunchTests.swift */,
 			);
 			path = MVWTUITests;
+			sourceTree = "<group>";
+		};
+		1C77AB992B4235E900E1004B /* View workouts */ = {
+			isa = PBXGroup;
+			children = (
+				1C77AB9D2B42365000E1004B /* WorkoutListView.swift */,
+			);
+			path = "View workouts";
+			sourceTree = "<group>";
+		};
+		1C77AB9A2B4235F100E1004B /* Create new workout */ = {
+			isa = PBXGroup;
+			children = (
+				1C77AB9B2B42363000E1004B /* CreateWorkoutView.swift */,
+			);
+			path = "Create new workout";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +279,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C77AB9C2B42363000E1004B /* CreateWorkoutView.swift in Sources */,
 				1C578DA72B423469004D6BBB /* ContentView.swift in Sources */,
+				1C77AB9E2B42365000E1004B /* WorkoutListView.swift in Sources */,
 				1C578DA52B423469004D6BBB /* MVWTApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
